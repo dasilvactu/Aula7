@@ -5,6 +5,8 @@
  */
 package aula7;
 
+import javax.swing.JFrame;
+
 /**
  *
  * @author ice
@@ -16,6 +18,10 @@ public class Aula7 {
      */
     public static void main(String[] args) {
         Janela janela =  new Janela();
+        janela.setSize(300,500);
+        janela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        janela.setLocationRelativeTo(null);
+        janela.setVisible(true);
     }
     
 }
